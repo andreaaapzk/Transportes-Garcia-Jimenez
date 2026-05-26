@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'my font';
+    src: url('../Fonts/Champagne\ &\ Limousines\ Bold.ttf');
+}
+
+
+
+.fuente {
+    font-family: my font;
+}
+
+@font-face {
+    font-family: mi fuente;
+    src: url('../Fonts/LEMONMILK-Medium.otf');
+}
+
+
+.font {
+    font-family: mi fuente;
+   
+}
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media (max-width:768px){
+
+    .display-1{
+        font-size: 3rem;
+    }
+
+    .display-5{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 0.95rem;
+    }
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width:768px){
+
+    .display-1{
+        font-size: 2.5rem;
+    }
+
+    .display-2{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+
+}
+.col-12{
+    margin-bottom: 25px;
+}
+
+.card-servicio{
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+    height: 100%;
+}
+
+.card-servicio:hover{
+    transform: translateY(-10px);
+}
+.titulo-seccion{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+
+.card-servicio{
+
+    background-color: white;
+
+    color: #333;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+
+    height: 100%;
+}
+/* Animación */
+
+.card-servicio:hover{
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Títulos */
+
+.titulo-seccion{
+
+    font-size: 2rem;
+
+    margin-top: 15px;
+
+    margin-bottom: 20px;
+
+    font-family: 'lemon', sans-serif;
+}
+
+.titulo-principal{
+
+    font-size: 4rem;
+
+    margin-bottom: 30px;
+
+    color: #1f1f1f;
+}
+
+
+.nav-custom{
+
+    background-color: #48728a;
+
+    padding: 15px 40px;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* Logo */
+
+.navbar-brand img{
+
+    transition: 0.3s;
+}
+
+.navbar-brand img:hover{
+
+    transform: scale(1.05);
+}
+
+/* Links */
+
+.nav-link{
+
+    font-size: 1rem;
+
+    font-weight: 500;
+
+    margin: 0 10px;
+
+    transition: 0.3s;
+}
+
+/* Hover */
+
+.nav-link:hover{
+
+    color: #d9d9d9 !important;
+
+    transform: translateY(-2px);
+}
+
+/* Link activo */
+
+.nav-link.active{
+
+    border-bottom: 2px solid white;
+}
+.logo-navbar{
+
+    width: 65px;
+
+    height: auto;
+}
+
+.equipo-section{
+
+    background-color: #f8f9fa;
+}
+
+/* Contenedor */
+
+.carousel-container{
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+/* Imágenes */
+
+.carousel-item img{
+
+    height: 600px;
+
+    object-fit: cover;
+}
+
+/* Flechas */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+
+    background-color: rgba(0,0,0,0.4);
+
+    border-radius: 50%;
+
+    padding: 20px;
+}
+
+@media (max-width:768px){
+
+    .carousel-item img{
+
+        height: 300px;
+    }
+
+    .titulo-principal{
+
+        font-size: 2.5rem;
+    }
+
+}
+.texto-acerca,
+.fontt,
+.fuente{
+
+    text-align: justify;
+
+    line-height: 1.8;
+
+    color: #000000;
+}
+
+
+.contacto-section{
+
+    background-color: white;
+}
+
+/* Íconos */
+
+.contacto-icon{
+
+    font-size: 3rem;
+
+    color: #48728a;
+}
+
+/* WhatsApp flotante */
+
+.whatsapp-float{
+
+    position: fixed;
+
+    bottom: 20px;
+
+    left: 20px;
+
+    background-color: #25D366;
+
+    border-radius: 50%;
+
+    width: 60px;
+
+    height: 60px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+    cursor: pointer;
+
+    z-index: 1000;
+
+    transition: 0.3s;
+}
+
+.whatsapp-float:hover{
+
+    transform: scale(1.1);
+}
+
+.whatsapp-float i{
+
+    color: white;
+
+    font-size: 30px;
+}
