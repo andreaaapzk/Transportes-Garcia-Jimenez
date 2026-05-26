@@ -319,6 +319,7 @@ html{
 
     font-size: 30px;
 }
+/* LOGO DEL NAVBAR */
 
 .logo-navbar {
 
@@ -333,6 +334,7 @@ html{
 
 }
 
+/* EFECTO HOVER */
 
 .logo-navbar:hover {
 
@@ -342,6 +344,7 @@ html{
 
 }
 
+/* ANIMACIÓN */
 
 @keyframes flotarLogo {
 
