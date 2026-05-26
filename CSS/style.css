@@ -319,3 +319,48 @@ html{
 
     font-size: 30px;
 }
+
+.logo-navbar {
+
+    width: 65px;
+    height: auto;
+
+    animation: flotarLogo 4s ease-in-out infinite;
+
+    transition: all 0.3s ease;
+
+    filter: drop-shadow(0px 4px 10px rgba(255,255,255,0.15));
+
+}
+
+
+.logo-navbar:hover {
+
+    transform: scale(1.08);
+
+    filter: drop-shadow(0px 6px 15px rgba(255,255,255,0.3));
+
+}
+
+
+@keyframes flotarLogo {
+
+    0% {
+
+        transform: translateY(0px);
+
+    }
+
+    50% {
+
+        transform: translateY(-4px);
+
+    }
+
+    100% {
+
+        transform: translateY(0px);
+
+    }
+
+}
