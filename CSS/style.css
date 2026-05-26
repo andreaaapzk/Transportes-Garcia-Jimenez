@@ -116,6 +116,17 @@ html{
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
+.carousel{
+border-radius: 25px;
+overflow: hidden;
+box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.btn-contacto{
+letter-spacing: 0.5px;
+font-size: 15px;
+}
+
 /* Títulos */
 
 .titulo-seccion{
@@ -275,52 +286,21 @@ html{
     color: #48728a;
 }
 
-/* WhatsApp flotante */
-
-.whatsapp-float{
-
-    position: fixed;
-
-    bottom: 20px;
-
-    left: 20px;
-
-    background-color: #25D366;
-
-    border-radius: 50%;
-
-    width: 60px;
-
-    height: 60px;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-
-    cursor: pointer;
-
-    z-index: 1000;
-
-    transition: 0.3s;
+.btn-contacto{
+background: transparent;
+border: 2px solid #48728a;
+color: #48728a;
+padding: 10px 22px;
+border-radius: 12px;
+font-weight: 600;
+transition: all 0.3s ease;
 }
 
-.whatsapp-float:hover{
-
-    transform: scale(1.1);
+.btn-contacto:hover{
+background-color: #48728a;
+color: white;
+transform: translateY(-2px);
 }
-
-.whatsapp-float i{
-
-    color: white;
-
-    font-size: 30px;
-}
-/* LOGO DEL NAVBAR */
-
 .logo-navbar {
 
     width: 65px;
@@ -334,7 +314,18 @@ html{
 
 }
 
-/* EFECTO HOVER */
+.linea-titulo{
+    width: 220px;
+    height: 5px;
+    background-color: #5b7f96;
+    margin: 25px auto 45px;
+    border-radius: 20px;
+}
+
+section{
+padding-top: 80px;
+padding-bottom: 80px;
+}
 
 .logo-navbar:hover {
 
@@ -344,7 +335,6 @@ html{
 
 }
 
-/* ANIMACIÓN */
 
 @keyframes flotarLogo {
 
@@ -366,4 +356,13 @@ html{
 
     }
 
+}
+
+.card-link{
+text-decoration: none;
+color: inherit;
+}
+
+.card-link:hover{
+color: inherit;
 }
